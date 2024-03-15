@@ -82,7 +82,7 @@ note = {Available at: \url{https://github.com/FabioD-Junior/airbot/}, AI & DS co
 > This project is mostly based on the cited work below. 
 >> Article  : dynamic_datasets
 >> 
->> Authors : Liu, Xiao-Yang and Xia, Ziyi and Yang, Hongyang and Gao, Jiechao and Zha, Daochen and Zhu, Ming and Wang, Christina Dan and Wang, Zhaoran and Guo, Jian}
+>> Authors : Liu, Xiao-Yang and Xia, Ziyi and Yang, Hongyang and Gao, Jiechao and Zha, Daochen and Zhu, Ming and Wang, Christina Dan and Wang, Zhaoran and Guo, Jian
 >>
 >> Title   : Dynamic Datasets and Market Environments for Financial Reinforcement Learning
 >>
