@@ -13,6 +13,8 @@
 
 ### The Air Bot project
 
+<hr>
+
 > Our project uses the FinRL library (see the references section) to create agents (bots) capable of performing trading actions such as buying, selling, or holding a specific stock symbol.
 > The final product is capable of executing single and multiple stock trading, but it is limited to the tickers of the Dow30.
 Due to computational resource constraints, we had to use our creativity to come up with a solution that was light enough to run using free tiers of cloud while still achieving relevant results. Because of this, we divided our solution into parts to focus on optimizing each of these functionalities.
@@ -20,6 +22,7 @@ Due to computational resource constraints, we had to use our creativity to come 
 <hr>
 
 ### The Br@in Team
+<hr>
 
 > These are the team members in alphabetich order.
 
@@ -36,7 +39,8 @@ Due to computational resource constraints, we had to use our creativity to come 
 <hr>
 
 ###  Our project repository
- 
+<hr>
+
 > Our solution is divided into several repositories, each with different purposes.
 
 > The first of them, Brain API, contains the main APIs that run in the AWS environment. It is a solution made in flask to run under a Web Server Gateway Interface (WSGI) Gunicorn layer and the NGINX reverse proxy/gateway.
@@ -60,6 +64,7 @@ Due to computational resource constraints, we had to use our creativity to come 
 <hr>
 
 ### How to cite our work (in case you want use any reference or code from our repository)
+<hr>
 
 > If you want to use our work or our code do not forget to cite us.
 
@@ -81,3 +86,6 @@ Due to computational resource constraints, we had to use our creativity to come 
 >> Title   : Dynamic Datasets and Market Environments for Financial Reinforcement Learning
 >> Journal : Machine Learning - Springer Nature
 >> Year    : 2024
+
+<hr>
+
