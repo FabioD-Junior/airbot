@@ -53,10 +53,10 @@ Due to computational resource constraints, we had to use our creativity to come 
 ####  Repository List  
 | Repository | Description | Status |
 |------|-------|-------|
-| Brain API       | Flask API built to run on AWS freetier| public |
-| Brain Simulator | Debug/testing interface using Gradio, for fine-tuning and testing | public|
-| FinRl Mini      | A lighter version of FinRL lib, created by us, to run on AWS t2.micro environment | public |
-| Brain UI        | The UI Platform which connects all our solutions in one place | private (to prevent credentials exposure)|
+| [Brain API](https://github.com/FabioD-Junior/brainApi)       | Flask API built to run on AWS freetier| public |
+| [Brain Simulator]() | Debug/testing interface using Gradio, for fine-tuning and testing | public|
+| [FinRl Mini](https://github.com/FabioD-Junior/finrl_mini)      | A lighter version of FinRL lib, created by us, to run on AWS t2.micro environment | public |
+| [Brain UI]()        | The UI Platform which connects all our solutions in one place | private (to prevent credentials exposure)|
 
 
 <hr>
