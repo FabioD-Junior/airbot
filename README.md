@@ -1,5 +1,3 @@
-<hr>
-
 ##### <table style="border-collapse: collapse; border: 0;"> <tr> <td style="border: 0;">![Markdown Logo](source/airbot_logo.png) </td> <td style="border: 0;"> ![Markdown Logo](source/airbot2.png)  <br>Academic project for building a Stock Trading Bot using Deep Reinforcement Learning. </td> </tr> </table>
 
 <hr>
@@ -24,12 +22,12 @@ Due to computational resource constraints, we had to use our creativity to come 
 ### The Br@in Team
 <hr>
 
-> These are the team members in alphabetich order.
+> These are the team members in alphabetical order.
 
 | Team Member | Main Role | 
 |------|-------|
 |Abin Benny	|  Research Data Engineer|
-|Fabio Duarte Junior	Team Leader | Machine Learning Engineer |
+|Fabio Duarte Junior	| Team Leader / Machine Learning Engineer |
 | Jaldhi Himanshu Bhatt	| Full Stack Software Engineer |
 | Manali Shaileshkumar Patel	| User Experience Engineer|
 | Shivaganesh Birru	| Analytics Engineer|
@@ -43,7 +41,7 @@ Due to computational resource constraints, we had to use our creativity to come 
 
 > Our solution is divided into several repositories, each with different purposes.
 
-> The first of them, Brain API, contains the main APIs that run in the AWS environment. It is a solution made in flask to run under a Web Server Gateway Interface (WSGI) Gunicorn layer and the NGINX reverse proxy/gateway.
+> The first of them, Brain API, contains the main APIs that run in the AWS environment. It is a solution made in Flask to run under a Web Server Gateway Interface (WSGI) Gunicorn layer and the NGINX reverse proxy/gateway.
 
 > Brain Simulator is the second repository, where we have the development version of our solution. We use the Gradio interface to perform simulations and conduct various types of tests on our solution to compare the performance of different trained models.
 
@@ -55,37 +53,43 @@ Due to computational resource constraints, we had to use our creativity to come 
 ####  Repository List  
 | Repository | Description | Status |
 |------|-------|-------|
-| Brain API       | Flask API built to run on AWS freetier| puplic |
-| Brain Simulator | Debug/testing interface using Gradio, for finetunning and testing | public|
-| FinRl Mini      | A lighter version of FinRL lib,created by us, to run on AWS t2.micro environment | public |
-| Brain UI        | The UI Platform which connect all our solutions in one place | private (to prevent credentials exposure|
+| Brain API       | Flask API built to run on AWS freetier| public |
+| Brain Simulator | Debug/testing interface using Gradio, for fine-tuning and testing | public|
+| FinRl Mini      | A lighter version of FinRL lib, created by us, to run on AWS t2.micro environment | public |
+| Brain UI        | The UI Platform which connects all our solutions in one place | private (to prevent credentials exposure)|
 
 
 <hr>
 
-### How to cite our work (in case you want use any reference or code from our repository)
+### How to cite our work (in case you want to use any reference or code from our repository)
 <hr>
 
 > If you want to use our work or our code do not forget to cite us.
 
 ```
 @misc{AirBot,
-  author = {Fabio Duarte Junior,Jaldhi Himanshu Bhatt, Shivaganesh Birru, Manali Shaileshkumar Patel,Abin Benny},
-  title = {AirBot: A stock trading bot based on FinRL lib. Academic project by group A3- BR@IN},
-  year = {2024},
-  note = {Available at: \url{https://github.com/FabioD-Junior/airbot/}, AI & DS course at Loyalist College},
+author = {Fabio Duarte Junior, Jaldhi Himanshu Bhatt, Shivaganesh Birru, Manali Shaileshkumar Patel, Abin Benny},
+title = {AirBot: A stock trading bot based on FinRL lib. Academic project by group A3- BR@IN},
+year = {2024},
+note = {Available at: \url{https://github.com/FabioD-Junior/airbot/}, AI & DS course at Loyalist College},
 }
 ```
 
 <hr> 
 
 ## References
-> This project is mostly based on the cited work bellow. 
+
+> This project is mostly based on the cited work below. 
 >> Article  : dynamic_datasets
->> Autorhs : Liu, Xiao-Yang and Xia, Ziyi and Yang, Hongyang and Gao, Jiechao and Zha, Daochen and Zhu, Ming and Wang, Christina Dan and Wang, Zhaoran and Guo, Jian}
+>> 
+>> Authors : Liu, Xiao-Yang and Xia, Ziyi and Yang, Hongyang and Gao, Jiechao and Zha, Daochen and Zhu, Ming and Wang, Christina Dan and Wang, Zhaoran and Guo, Jian}
+>>
 >> Title   : Dynamic Datasets and Market Environments for Financial Reinforcement Learning
+>>
 >> Journal : Machine Learning - Springer Nature
+>>
 >> Year    : 2024
 
-<hr>
+<br>
 
+<hr>
