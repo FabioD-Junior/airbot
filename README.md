@@ -4,15 +4,37 @@
 
 <hr>
 
-
 # Welcome
+
+Welcome to our humble repository.
+We are the BR@IN team, and this repository is about our academic work where we faced the challenge of creating a bot (an automation that simulates a human) using advanced AI techniques such as Deep Reinforcement Learning.
 
 ## The Air Bot project
 
+Our project uses the FinRL library (see the references section) to create agents (bots) capable of performing trading actions such as buying, selling, or holding a specific stock symbol.
+The final product is capable of executing single and multiple stock trading, but it is limited to the tickers of the Dow30.
+Due to computational resource constraints, we had to use our creativity to come up with a solution that was light enough to run using free tiers of cloud while still achieving relevant results. Because of this, we divided our solution into parts to focus on optimizing each of these functionalities.
+
+
 ## The Br@in Team
 
-## Our project repository
+
 | Repository | Description | Status |
+|------|-------|-------|
+
+## Our project repository
+ 
+
+Our solution is divided into several repositories, each with different purposes.
+
+The first of them, Brain API, contains the main APIs that run in the AWS environment. It is a solution made in flask to run under a Web Server Gateway Interface (WSGI) Gunicorn layer and the NGINX reverse proxy/gateway.
+
+Brain Simulator is the second repository, where we have the development version of our solution. We use the Gradio interface to perform simulations and conduct various types of tests on our solution to compare the performance of different trained models.
+
+FinRL Mini is one of our best shots, with restricted computational resources, for instance, 1GB memory, we managed to create a lighter version of FinRL able to run on AWS free tier by removing libs and components that are not used in our project and those used just for model training, keeping only the necessary to run our agent.
+
+Lastly, we have Brain UI- the repository which stores the UI of our web trading platform.
+
 
 ### Repository List  
 | Repository | Description | Status |
@@ -25,20 +47,20 @@
 
 ## How to cite our work (in case you want use any reference or code from our repository)
 
-## Citing FinRL
+> If you want to use our work or our code do not forget to cite us.
 
 ```
-@article{dynamic_datasets,
-    author = {Liu, Xiao-Yang and Xia, Ziyi and Yang, Hongyang and Gao, Jiechao and Zha, Daochen and Zhu, Ming and Wang, Christina Dan and Wang, Zhaoran and Guo, Jian},
-    title = {Dynamic Datasets and Market Environments for Financial Reinforcement Learning},
-    journal = {Machine Learning - Springer Nature},
-    year = {2024}
+@misc{AirBot,
+  author = {Fabio Duarte Junior,Jaldhi Himanshu Bhatt, Shivaganesh Birru, Manali Shaileshkumar Patel,Abin Benny},
+  title = {AirBot: A stock trading bot based on FinRL lib. Academic project by group A3- BR@IN},
+  year = {2024},
+  note = {Available at: \url{https://github.com/FabioD-Junior/airbot/}, AI & DS course at Loyalist College},
 }
 ```
 
-# References
-
-> Article  : dynamic_datasets
+## References
+> This project is mostly based on the cited work bellow. 
+>> Article  : dynamic_datasets
 >> Autorhs : Liu, Xiao-Yang and Xia, Ziyi and Yang, Hongyang and Gao, Jiechao and Zha, Daochen and Zhu, Ming and Wang, Christina Dan and Wang, Zhaoran and Guo, Jian}
 >> Title   : Dynamic Datasets and Market Environments for Financial Reinforcement Learning
 >> Journal : Machine Learning - Springer Nature
