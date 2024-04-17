@@ -53,6 +53,7 @@ Due to computational resource constraints, we had to use our creativity to come 
 ####  Repository List  
 | Repository | Description | Status |
 |------|-------|-------|
+| [Brain simulator](https://github.com/FabioD-Junior/brainSimulator) | Back-end tool for model testing | public
 | [Brain API](https://github.com/FabioD-Junior/brainApi)       | Flask API built to run on AWS freetier| public |
 | [Brain AI Hub](https://github.com/FabioD-Junior/brainAiHub) | Chatbot based on RAG and other NLP techniques | public|
 | [FinRl Mini](https://github.com/FabioD-Junior/finrl_mini)      | A lighter version of FinRL lib, created by us, to run on AWS t2.micro environment | public |
@@ -76,6 +77,9 @@ note = {Available at: \url{https://github.com/FabioD-Junior/airbot/}, AI & DS co
 ```
 
 <hr> 
+
+## Disclaimer
+> It is important to reinforce that this is a purely academic project. We do not intend to guarantee that this project, as it is, can be used in a real environment. Nor can we affirm or guarantee any kind of profit or that the project's applications are free from flaws, even though we have conducted several tests.
 
 ## References
 
