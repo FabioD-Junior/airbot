@@ -9,6 +9,23 @@
 
 <hr>
 
+###  Our project repository
+<hr>
+
+> Our solution is divided into several repositories, each with different purposes.
+> FinRL Mini is one of our best shots, with restricted computational resources, for instance, 1GB memory, we managed to create a lighter version of FinRL able to run on AWS free tier by removing libs and components that are not used in our project and those used just for model training, keeping only the necessary to run our agent.
+
+####  Repository List  
+| Repository | Description | Status |
+|------|-------|-------|
+| [Brain simulator](https://github.com/FabioD-Junior/brainSimulator) | Back-end tool for model testing | public
+| [Brain API](https://github.com/FabioD-Junior/brainApi)       | Flask API built to run on AWS freetier| public |
+| [Brain AI Hub](https://github.com/FabioD-Junior/brainAiHub) | Chatbot based on RAG and other NLP techniques | public|
+| [FinRl Mini](https://github.com/FabioD-Junior/finrl_mini)      | A lighter version of FinRL lib, created by us, to run on AWS t2.micro environment | public |
+| [Brain UI](https://github.com/bhattjaldhi/stock-trading-bot-nextjs)  | The UI Platform made in react.js which connects all our solutions in one place | private (to prevent credentials exposure)|
+
+<hr>
+
 ### The Air Bot project
 
 <hr>
@@ -35,33 +52,6 @@ Due to computational resource constraints, we had to use our creativity to come 
 	
 
 <hr>
-
-###  Our project repository
-<hr>
-
-> Our solution is divided into several repositories, each with different purposes.
-
-> The first of them, Brain API, contains the main APIs that run in the AWS environment. It is a solution made in Flask to run under a Web Server Gateway Interface (WSGI) Gunicorn layer and the NGINX reverse proxy/gateway.
-
-> Brain Simulator is the second repository, where we have the development version of our solution. We use the Gradio interface to perform simulations and conduct various types of tests on our solution to compare the performance of different trained models.
-
-> FinRL Mini is one of our best shots, with restricted computational resources, for instance, 1GB memory, we managed to create a lighter version of FinRL able to run on AWS free tier by removing libs and components that are not used in our project and those used just for model training, keeping only the necessary to run our agent.
-
-> Lastly, we have Brain UI- the repository which stores the UI of our web trading platform.
-
-
-####  Repository List  
-| Repository | Description | Status |
-|------|-------|-------|
-| [Brain simulator](https://github.com/FabioD-Junior/brainSimulator) | Back-end tool for model testing | public
-| [Brain API](https://github.com/FabioD-Junior/brainApi)       | Flask API built to run on AWS freetier| public |
-| [Brain AI Hub](https://github.com/FabioD-Junior/brainAiHub) | Chatbot based on RAG and other NLP techniques | public|
-| [FinRl Mini](https://github.com/FabioD-Junior/finrl_mini)      | A lighter version of FinRL lib, created by us, to run on AWS t2.micro environment | public |
-| [Brain UI]()        | The UI Platform which connects all our solutions in one place | private (to prevent credentials exposure)|
-
-
-<hr>
-
 ### How to cite our work (in case you want to use any reference or code from our repository)
 <hr>
 
