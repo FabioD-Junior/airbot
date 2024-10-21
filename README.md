@@ -18,11 +18,11 @@
 ####  Repository List  
 | Repository | Description | Status |
 |------|-------|-------|
-| [Brain simulator](https://github.com/FabioD-Junior/brainSimulator) | Back-end tool for model testing | public
-| [Brain API](https://github.com/FabioD-Junior/brainApi)       | Flask API built to run on AWS freetier| public |
-| [Brain AI Hub](https://github.com/FabioD-Junior/brainAiHub) | Chatbot based on RAG and other NLP techniques | public|
+| [Simulator](https://github.com/FabioD-Junior/brainSimulator) | Back-end tool for model testing | public
+| [API](https://github.com/FabioD-Junior/brainApi)       | Flask API built to run on AWS freetier| public |
+| [AI Hub](https://github.com/FabioD-Junior/brainAiHub) | Chatbot based on RAG and other NLP techniques | public|
 | [FinRl Mini](https://github.com/FabioD-Junior/finrl_mini)      | A lighter version of FinRL lib, created by us, to run on AWS t2.micro environment | public |
-| [Brain UI](https://github.com/bhattjaldhi/stock-trading-bot-nextjs)  | The UI Platform made in react.js which connects all our solutions in one place | private (to prevent credentials exposure)|
+| [Platform UI](https://github.com/bhattjaldhi/stock-trading-bot-nextjs)  | The UI Platform made in react.js which connects all our solutions in one place | private (to prevent credentials exposure)|
 
 <hr>
 
